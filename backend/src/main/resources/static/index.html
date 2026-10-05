@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Events - EventManager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <section class="hero hero-photo full-bleed" style="--hero-img:url('../images/hero-concert.png')">
+        <div class="hero-inner">
+            <span class="eyebrow">🎉 Live &amp; upcoming on campus</span>
+            <h1>Discover &amp; Register for Events</h1>
+            <p class="subtitle">Browse what's happening, grab a ticket in seconds, and manage it all from one place.</p>
+        </div>
+    </section>
+
+    <div class="hero-search-wrap">
+        <div class="search-glass search-bar">
+            <input type="text" id="searchInput" placeholder="Search by name or category...">
+            <button class="btn" onclick="loadEvents()">Search</button>
+            <button class="btn secondary" onclick="clearSearch()">Clear</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 style="margin-top:4px;">Upcoming Events</h2>
+        <div id="alertBox"></div>
+        <div id="eventsGrid" class="poster-grid"></div>
+    </div>
+
+    <footer>Event Management System &copy; 2026 - College Project</footer>
+
+    <script src="js/api.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>

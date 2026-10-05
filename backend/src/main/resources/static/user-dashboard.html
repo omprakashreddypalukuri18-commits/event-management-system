@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dashboard - EventManager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <div class="container">
+        <div class="page-banner" style="--banner-img:url('../images/cat-cultural.png')">
+            <span class="eyebrow">👋 Welcome back</span>
+            <h1>My Dashboard</h1>
+            <p class="subtitle">Your upcoming events, past registrations, and tickets — all in one place.</p>
+        </div>
+        <div id="alertBox"></div>
+
+        <div id="tiles" class="tiles"></div>
+
+        <h2>Upcoming Registered Events</h2>
+        <div id="upcomingList"></div>
+
+        <h2>Previous Registrations</h2>
+        <div id="previousList"></div>
+
+        <h2>My Tickets</h2>
+        <div id="ticketsList"></div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/user-dashboard.js"></script>
+</body>
+</html>

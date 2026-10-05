@@ -1,0 +1,16 @@
+# Backend build output
+backend/target/
+backend/*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+HELP.md
+
+# OS
+.DS_Store
+Thumbs.db

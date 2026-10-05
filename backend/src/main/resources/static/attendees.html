@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendees - EventManager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <div class="container">
+        <div class="page-banner" style="--banner-img:url('../images/hero-concert.png')">
+            <a href="organizer-events.html" style="color:rgba(255,255,255,0.85);font-size:13px;margin-bottom:10px;display:inline-block;">&larr; Back to My Events</a>
+            <span class="eyebrow">👥 Attendee list</span>
+            <h1 id="pageTitle">Attendees</h1>
+        </div>
+        <div id="alertBox"></div>
+        <div id="summary" class="tiles"></div>
+        <div id="attendeesTable"></div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/attendees.js"></script>
+</body>
+</html>

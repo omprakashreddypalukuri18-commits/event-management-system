@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizer Dashboard - EventManager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <div class="container">
+        <div class="page-banner" style="--banner-img:url('../images/cat-technical.png')">
+            <div class="flex-between" style="align-items:flex-end;">
+                <div>
+                    <span class="eyebrow">🛠️ Organizer workspace</span>
+                    <h1>Organizer Dashboard</h1>
+                    <p class="subtitle" style="margin-bottom:0;">Track registrations, manage capacity, and see how your events are performing.</p>
+                </div>
+                <a class="btn" href="event-form.html" style="background:#fff;color:var(--primary);box-shadow:none;flex-shrink:0;">+ Create Event</a>
+            </div>
+        </div>
+        <div id="alertBox"></div>
+
+        <div id="tiles" class="tiles"></div>
+
+        <h2>Upcoming Events</h2>
+        <div id="upcomingList"></div>
+
+        <h2>Event-wise Attendee Count</h2>
+        <div id="statsTable"></div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/organizer-dashboard.js"></script>
+</body>
+</html>

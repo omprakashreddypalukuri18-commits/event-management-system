@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - EventManager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <div class="container">
+        <div class="form-box">
+            <h1>Complete Payment</h1>
+            <p class="subtitle">This is a mock payment flow for demonstration purposes - no real money is involved.</p>
+            <div id="alertBox"></div>
+
+            <div id="orderSummary"></div>
+
+            <form id="paymentForm">
+                <div class="form-group">
+                    <label for="paymentMethod">Payment Method</label>
+                    <select id="paymentMethod" required>
+                        <option value="CARD">Credit / Debit Card</option>
+                        <option value="UPI">UPI</option>
+                        <option value="NETBANKING">Net Banking</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn" id="payBtn" style="width:100%">Pay Now</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/payment.js"></script>
+</body>
+</html>

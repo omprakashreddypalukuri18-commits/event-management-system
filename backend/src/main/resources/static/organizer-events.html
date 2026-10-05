@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Events - EventManager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <div class="container">
+        <div class="page-banner" style="--banner-img:url('../images/cat-conference.png')">
+            <div class="flex-between" style="align-items:flex-end;">
+                <div>
+                    <span class="eyebrow">🎪 Your events</span>
+                    <h1>My Events</h1>
+                    <p class="subtitle" style="margin-bottom:0;">Create, edit, and manage every event you organize.</p>
+                </div>
+                <a class="btn" href="event-form.html" style="background:#fff;color:var(--primary);box-shadow:none;flex-shrink:0;">+ Create Event</a>
+            </div>
+        </div>
+        <div id="alertBox"></div>
+        <div id="eventsTable"></div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/organizer-events.js"></script>
+</body>
+</html>

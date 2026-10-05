@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - EventManager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <div class="auth-page" style="--auth-img:url('../images/auth-dance.png')">
+        <div class="auth-brand">
+            <div class="auth-brand-content">
+                <div class="logo-badge-lg">🎪</div>
+                <h1>Welcome back</h1>
+                <p>Sign in to discover events, manage your registrations, or run your own events as an organizer.</p>
+                <ul class="feature-list">
+                    <li><span class="f-icon">✓</span> One account for browsing &amp; organizing</li>
+                    <li><span class="f-icon">✓</span> Instant e-tickets after registration</li>
+                    <li><span class="f-icon">✓</span> Live dashboards &amp; attendee tracking</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="auth-form-side">
+            <div class="form-box">
+                <h1>Login</h1>
+                <p class="subtitle">Users and Organizers both log in here — you'll be taken to the right dashboard automatically.</p>
+                <div id="alertBox"></div>
+
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="you@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="••••••••" required>
+                    </div>
+                    <button type="submit" class="btn" style="width:100%">Login</button>
+                </form>
+
+                <p class="muted" style="margin-top:16px;text-align:center;">
+                    Don't have an account? <a href="register.html">Register here</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>
