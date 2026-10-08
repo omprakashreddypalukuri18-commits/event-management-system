@@ -86,9 +86,15 @@ Update the username/password in
 ### 2. Backend (also serves the frontend — one single URL)
 ```bash
 cd backend
-mvn spring-boot:run
+./mvnw spring-boot:run        # Mac/Linux
+mvnw.cmd spring-boot:run      # Windows
 ```
-(Or just run `EventManagementApplication.java` from your IDE.)
+This uses the included **Maven Wrapper**, so you don't need Maven installed
+system-wide — it downloads the right version automatically on first run
+(needs only a JDK 17+ and an internet connection the first time).
+
+(Or just run `EventManagementApplication.java` from your IDE instead — IntelliJ
+and VS Code's Java extension both handle Maven projects without any setup.)
 
 The frontend files are copied into `backend/src/main/resources/static/`, which
 Spring Boot serves automatically at the same port as the API. So once the
