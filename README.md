@@ -1,4 +1,27 @@
-# Event Management System
+<div align="center">
+
+# 🎪 Event Management System
+
+### Create, discover, and manage college events — with real tickets, mock payments, and live dashboards
+
+[![Live Demo](https://img.shields.io/badge/🚀_LIVE_DEMO-Click_to_Open-success?style=for-the-badge)](https://event-management-system-production-58e5.up.railway.app)
+[![Setup Guide](https://img.shields.io/badge/📖_Setup_Guide-Run_Locally-informational?style=for-the-badge)](#how-to-run)
+
+[![Java](https://img.shields.io/badge/Java-17-orange?style=flat-square&logo=openjdk&logoColor=white)](backend/pom.xml)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-brightgreen?style=flat-square&logo=springboot&logoColor=white)](backend/pom.xml)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=flat-square&logo=mysql&logoColor=white)](database/schema.sql)
+[![JavaScript](https://img.shields.io/badge/Frontend-Vanilla_JS-f7df1e?style=flat-square&logo=javascript&logoColor=black)](frontend/js)
+[![Deployed on Railway](https://img.shields.io/badge/Deployed_on-Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)](https://railway.app)
+[![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square)](LICENSE)
+
+> **Click "🚀 LIVE DEMO" above** — it opens the real, running project (Spring Boot + MySQL, deployed on Railway), no setup needed.
+> First time there? The database starts empty — register an **Organizer** account, create an event, then register as a **User** to see the full flow. See [Demo Flow](#demo-flow) below for the exact steps.
+>
+> ⚠️ This is a free-tier deployment, so it may occasionally go offline once trial credit runs out. If the live link is ever down, see [How to Run](#how-to-run) to run it yourself in a couple of minutes.
+
+</div>
+
+---
 
 A simple full-stack Event Management System built as a 2nd-year college project.
 
